@@ -1,0 +1,57 @@
+.swipper{
+
+    position: relative;
+    overflow: hidden;
+
+    * { touch-action: pan-y; } 
+
+    
+    .swipperDoubleBox{
+        position: absolute;
+        left:50%;
+        transform: translate(-50%);
+        bottom:8px;
+        font-size:0;
+    }
+    .swipperDouble{
+        width:20px;
+        height:3px;
+        display: inline-block;
+        margin-right:4px;
+        border-radius: 6px;
+        background: rgba(255,255,255,.3);
+    }
+    .swipperDouble:last-child{
+        margin-right:0;
+    }
+    .swipperDouble-active{
+        background: rgba(255,255,255,1);
+    }
+
+
+
+
+
+    .my-carousel{
+        .carousel-img{
+            position:absolute;
+            left:0;
+            top:0;
+        }
+        .swipper-img{
+            position:absolute;
+            top:0;
+            left: 0;
+            display: inline-block;
+        }
+    }
+
+    // .carousel-img{
+    //     width:100%;
+    //     height:100%;
+    // }
+    // .swipperDoubleBox{
+        
+    // }
+}
+

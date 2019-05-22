@@ -1,0 +1,43 @@
+@import "./common.scss";
+
+.lxh-homepage{
+    .code-section{
+        max-width:900px;
+    }
+    .mobile-section{
+        position:fixed;
+        top:0;
+        right:0;
+        width:375px;
+        height:667px;
+        background: #ddd;
+    }
+
+    .aside-one{
+        width:210px;
+        height:50px;
+        line-height: 50px;
+        border: 1px solid #ddd;
+        padding-left:20px;
+        border-radius:5px;
+    }
+
+    .aside-active{
+        background: #0d8fdb;
+        color:#fff;
+    }
+
+    .no-data{
+        z-index:2;
+        position: absolute;
+        left:0;
+        top:0;
+        right:0;
+        bottom: 0;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
